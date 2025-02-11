@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PDF Generator Frontend</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>PDF Generator</h1>
+
+    <div>
+        <label for="url">URL:</label>
+        <input type="text" id="url" name="url">
+    </div>
+
+    <div>
+        <label for="html">HTML Content:</label>
+        <textarea id="html" name="html"></textarea>
+    </div>
+
+    <button onclick="generatePDF()">Generate PDF</button>
+
+    <div id="pdf-preview">
+        <!-- PDF preview or link will be displayed here -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
